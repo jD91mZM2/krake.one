@@ -1,0 +1,15 @@
+---
+layout: default
+title: Redirecting...
+target: jD91mZM2.github.io
+---
+
+<h1>Redirecting to <a href="https://{{ page.target }}/">{{ page.target }}</a></h1>
+<img src="assets/Eclipse-1s-200px.svg" alt="Loading icon" class="center" style="width: 200px;" />
+<p class="dynamic-center" style="max-width: 500px;">Loading icon from <a href="https://loading.io/">loading.io</a></p>
+
+<script>
+    setTimeout(function () {
+        location.href = "https://{{ page.target }}/";
+    }, 500);
+</script>
